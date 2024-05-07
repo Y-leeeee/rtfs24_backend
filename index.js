@@ -7,6 +7,10 @@ app.get("/", (_request, response) => {
   response.send({ hello: "World" });
 });
 
+app.get("/hej", (_request, response) => {
+  response.send(Babo);
+});
+
 app.listen(port, () => {
   console.log(`Redo på http://localhost:${port}/`);
 });
