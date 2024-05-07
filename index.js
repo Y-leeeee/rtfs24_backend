@@ -8,7 +8,7 @@ app.get("/", (_request, response) => {
 });
 
 app.get("/hej", (_request, response) => {
-  response.send("Olivia Louis nekko");
+  response.send("Olivia Louis cutest");
 });
 
 app.listen(port, () => {
